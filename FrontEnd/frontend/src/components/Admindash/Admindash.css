@@ -1,0 +1,22 @@
+.tableFixHead {
+    overflow-y: auto;
+    height: 400px;
+  }
+  
+  .tableFixHead thead th {
+    position: sticky;
+    top: 0;
+    background: white;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    padding: 40px;
+    background: rgb(158, 219, 219);
+    justify-content: center;
+    color: navy;
+    box-shadow: 10px 10px 10px rgb(120, 120, 120);
+  }
+  
