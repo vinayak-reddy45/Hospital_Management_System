@@ -51,3 +51,30 @@ hospital-management-system/ ├── frontend/ # React app ├── backend/ #
 
 ```CMD
 mvn spring-boot:run
+
+
+
+🌐 Frontend (React)
+Open a terminal and navigate to the frontend/ folder:
+
+
+cd frontend
+Install dependencies:
+
+
+npm install
+Start the React app:
+
+npm start
+✅ Database Setup (MySQL)
+Open MySQL Workbench.
+
+Create a database (e.g., hospital_db).
+
+Update your application.properties to point to it.
+
+If using Spring JPA with auto DDL, it will create tables automatically. Or import a schema manually.
+
+📬 Contact
+If you have any questions or want to connect, feel free to reach out via LinkedIn or GitHub!
+
